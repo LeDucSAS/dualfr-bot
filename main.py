@@ -52,7 +52,13 @@ async def serverStatus(ctx):
 
 @bot.command
 async def nda(ctx):
-    """Procédure accès NDA"""
+    """Procédure accès NDA DualFR"""
     await ctx.send('''Explication accès NDA''')
+
+@bot.command
+async def nqarticles(ctx):
+    """Listes des articles publiés par NQ"""
+    await ctx.send('''Liste des articles en ligne
+<https://www.dualthegame.com/en/news/>''')
 
 bot.run(token)
