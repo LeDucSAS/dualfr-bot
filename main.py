@@ -44,10 +44,15 @@ async def avx(ctx):
     await ctx.send('''Lien vers article à propos de DU et AVX
 <https://support.dualthegame.com/hc/en-us/articles/115002472234-AVX-INSTRUCTIONS-REQUIRED-TO-RUN-DUAL-UNIVERSE>''')
 
-@faq.command(name="server-status")
+@bot.command(name="server-status")
 async def serverStatus(ctx):
     """Calendrier serveur"""
     await ctx.send('''Lien vers le calendrier des sessions
 <https://www.dualthegame.com/fr/server-status/>''')
+
+@bot.command
+async def nda(ctx):
+    """Procédure accès NDA"""
+    await ctx.send('''Explication accès NDA''')
 
 bot.run(token)
