@@ -55,6 +55,11 @@ async def nda(ctx):
     """Procédure accès NDA DualFR"""
     await ctx.send('''Explication accès NDA''')
 
+@bot.command(name="validation-nda")
+async def validationNda(ctx):
+    """Validation par le bot du status NDA des joueurs"""
+    await ctx.send('''Validation par le bot du status NDA des joueurs''')
+
 @bot.command
 async def nqarticles(ctx):
     """Listes des articles publiés par NQ"""
