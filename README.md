@@ -52,5 +52,7 @@ I'm making this bot so it helps everyone, and try to keep it simple enough any b
 Feel free to share your commands, or contact me if you want something added.
 
 Sincerely yours,
+
 LeDucSAS
+
 https://dualfr.org
