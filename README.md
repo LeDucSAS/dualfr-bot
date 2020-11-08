@@ -35,7 +35,8 @@ Basically, the bot is simple enough so you can customize it however you want for
 Here are the commands actually available by the bot.
 
 * aide - help, list commands
-* docs - as documentation list, can be filtered with sub categories
+* docs - technical documentation (game's hardware specs, what's AVX, etc.)
+* guides - as documentation list, can be filtered with sub categories (community guides, forums links, etc.)
 * kmsu - convert kilometers to SU
 * sukm - convert SU to kilometers
 * kmtime - Gives the required time to travel a certain distance in kilometers at a defined speed
