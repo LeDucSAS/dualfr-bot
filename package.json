@@ -1,6 +1,6 @@
 {
   "name": "dualfr-bot",
-  "version": "0.0.0.1",
+  "version": "0.0.1",
   "description": "Utility bot for Dual Universe French Community",
   "main": "index.js",
   "scripts": {
