@@ -30,6 +30,19 @@ Basically, the bot is simple enough so you can customize it however you want for
 * `npm start` which is basically `node index.js >> cfdubot2020.log &` so it start a process and write some output in a logfile
 * `npm stop` which is basically `pkill -f cfdubot2020`
 
+# User commands
+
+Here are the commands actually available by the bot.
+
+* aide - help, list commands
+* docs - as documentation list, can be filtered with sub categories
+* kmsu - convert kilometers to SU
+* sukm - convert SU to kilometers
+* kmtime - Gives the required time to travel a certain distance in kilometers at a defined speed
+* sutime - Gives the required time to travel a certain distance in SU at a defined speed
+* timesu - Gives the required speed in order to achieve distance in time (ex: how much speed do I need in order to do 15 SU in 600mn)
+* warp - Gives an estimation of the number of warp cell consumed
+
 # How to develop with it
 
 ## How to add a command
