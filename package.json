@@ -1,0 +1,20 @@
+{
+  "name": "dualfr-bot",
+  "version": "0.0.0.1",
+  "description": "Utility bot for Dual Universe French Community",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js >> cfdubot2020.log &",
+    "test": "test",
+    "stop": "pkill -f cfdubot2020"
+  },
+  "author": "LeDucSAS",
+  "license": "ISC",
+  "dependencies": {
+    "@node-minify/core": "^5.3.0",
+    "@node-minify/html-minifier": "^5.3.0",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.2.0",
+    "request": "^2.88.2"
+  }
+}
